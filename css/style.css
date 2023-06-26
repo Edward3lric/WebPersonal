@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+#hero {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+nav img {
+  max-width: 40px;
+}
+#hero .tam-hero{
+  height: calc(100vh - 146px);
+  max-height: 100vw;
+}
+#hero .card {
+  width: 100%;
+  height: 100%;
+}
+#hero .card-body {
+  height: calc(100% - 41px);
+}
+.height-100 {
+  height: 100%;
+}
+
+#goals .card {
+  height: 700px;
+}
+#goals .card .sub-title {
+  height: 100px;
+  flex: none;
+}
+
+
+.img-goals {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 1200px) {
+  #hero .tam-left {
+    height: 150px;
+    justify-content: center;
+  }
+  #goals .card {
+    height: auto;
+  }
+  #goals .card .card-body {
+    height: auto;
+  }
+  
+}
